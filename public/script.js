@@ -72,7 +72,6 @@ new Vue({
 	},
 	created: function() {
 		this.onSubmit();
-		this.search = "";
 	},
 	updated: function() {
 		var sensor = document.querySelector("#product-list-bottom");
